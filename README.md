@@ -1,0 +1,2 @@
+# CurseDotNet.Class
+CurseDotNet.Class
