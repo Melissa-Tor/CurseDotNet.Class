@@ -273,6 +273,22 @@
     <Compile Include="Migrations\202003201250482_Ugraded_To_ABP_5_4_0.designer.cs">
       <DependentUpon>202003201250482_Ugraded_To_ABP_5_4_0.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202010100424585_agregar_tabla_productos.cs" />
+    <Compile Include="Migrations\202010100424585_agregar_tabla_productos.designer.cs">
+      <DependentUpon>202010100424585_agregar_tabla_productos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010100427244_agregar_tabla_productos1.cs" />
+    <Compile Include="Migrations\202010100427244_agregar_tabla_productos1.designer.cs">
+      <DependentUpon>202010100427244_agregar_tabla_productos1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010100526472_agregar_tabla_clientes.cs" />
+    <Compile Include="Migrations\202010100526472_agregar_tabla_clientes.designer.cs">
+      <DependentUpon>202010100526472_agregar_tabla_clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010100532298_actualizar_tabla_clientes.cs" />
+    <Compile Include="Migrations\202010100532298_actualizar_tabla_clientes.designer.cs">
+      <DependentUpon>202010100532298_actualizar_tabla_clientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Migrations\SeedData\DefaultEditionsCreator.cs" />
@@ -327,6 +343,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202003201250482_Ugraded_To_ABP_5_4_0.resx">
       <DependentUpon>202003201250482_Ugraded_To_ABP_5_4_0.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010100424585_agregar_tabla_productos.resx">
+      <DependentUpon>202010100424585_agregar_tabla_productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010100427244_agregar_tabla_productos1.resx">
+      <DependentUpon>202010100427244_agregar_tabla_productos1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010100526472_agregar_tabla_clientes.resx">
+      <DependentUpon>202010100526472_agregar_tabla_clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010100532298_actualizar_tabla_clientes.resx">
+      <DependentUpon>202010100532298_actualizar_tabla_clientes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
